@@ -63,7 +63,7 @@ void imprimirArray(int *arr, int l, int r)
 //Imprimir arreglo entre llaves
 void imprimirArray2(int *arr, int l, int r)
 {
-    printf(",");
+    printf(" ");
     for (int i = l; i < r; i++)
     {
         printf("%d ", arr[i]);
